@@ -24,3 +24,6 @@ One of the difficulties with web design is that your web page will be visited by
 There are a variety of methods to achieve the desired responsiveness, but the best solution is to use what are called CSS media queries, or simply media queries. Media queries work by applying a specific group of CSS rules to your web layout, but only if the device viewing the web page matches a specified width. 
 
 For example, you can create a set of CSS rules that format your web layout and apply a media query to it. This media query will make it so that those CSS rules will only be applied if the device being used has a screen width that is less than 320 pixels in width. Then you can create a second set of CSS rules, but this one will only be applied if the device has a screen width greater than 1200px (pixels) in width. 
+
+## CSS Flexbox
+ Flexbox is a layout-based add-on to CSS3 that replaces the need to deal with CSS positioning and float issues. Flexbox makes it very easy to construct intricate layouts with very little code and it is luckily supported by most modern browsers.
