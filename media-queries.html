@@ -7,15 +7,22 @@
         <meta name="viewport" content="width=device-width", initial-scale=1">
 
         <style>
+
+/* Applies to everything unless overridden elsewhere */
+            
             * { margin: 0; }
 
             body { background: rgba(255, 0, 0, .25); }
+
+/* Applies to any device whose screem width is 768px and wider */
 
             @media screen and (min-width: 768px) {
                 
                 body { background: rgba(0, 255, 0, .25); }
                 
             }
+
+/* Applies to any devices whose screen width is 1200px and wider */
 
             @media screen and (min-width: 1200px) {
                 
